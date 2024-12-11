@@ -23,9 +23,6 @@
 #endif
 
 #include "protocol.h"
-#define SERVER_ADDRESS "127.0.0.1"
-#define SERVER_PORT 12345
-#define BUFFER_SIZE 1024
 
 #ifdef _WIN32
     #define close_socket closesocket
