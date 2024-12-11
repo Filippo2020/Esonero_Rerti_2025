@@ -34,7 +34,7 @@
     #define close_socket close
 #endif
 
-// Initialize sockets (specific for Windows)
+// Initialize sockets
 void init_sockets() {
 #ifdef _WIN32
     WSADATA wsaData;
