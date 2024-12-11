@@ -25,8 +25,6 @@
 #endif
 
 #include "protocol.h"
-#define SERVER_PORT 12345
-#define BUFFER_SIZE 1024
 #define MAX_PASSWORD_LENGTH 32
 #define MIN_PASSWORD_LENGTH 6
 
